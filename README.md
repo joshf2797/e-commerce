@@ -30,7 +30,7 @@ This application was created using these verious technologies:
 
 For installation you will need Node module. Open the terminal and type npm i.
 Next you will need to enter you username and password for mysql into .env. Once you have done that you need to type mysql -u username -p into the terminal. It will prompt you to enter you password.
-Once you are into mysql you need to source the schema file but typing source db/schema.sql. After that make sure you are on fizzbuzzed db by typing use fizzbuzzed_db.
+Once you are into mysql you need to create the database by running the command create database ecommerce_db then running use ecommerce_db to make sure you are using that database.
 When that is done you can exit mysql by typing exit.
 Once you are out of mysql you need to run the seeds by typing npm run seed.
 Now you are ready to run you application by typing npm run start.
